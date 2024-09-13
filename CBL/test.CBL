@@ -55,6 +55,7 @@
 
        EXEC CICS LINK PROGRAM('TRANPROG') COMMAREA(COMM-AREA) 
        LENGTH(LEN)
+       END-EXEC
        
       
        
