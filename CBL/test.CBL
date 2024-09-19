@@ -32,6 +32,7 @@
        ACCEPT WS-USER-NAME
        DISPLAY 'Enter your age:'
        ACCEPT WS-USER-AGE
+        
  
     
  
