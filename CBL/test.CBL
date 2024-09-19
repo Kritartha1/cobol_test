@@ -28,7 +28,14 @@
            FROM CUSTOMER_TABLE
            WHERE CUSTOMER_ID = :WS-CUSTOMER-ID
        END-EXEC.
+       DISPLAY 'Enter your name:'
+       ACCEPT WS-USER-NAME
+       DISPLAY 'Enter your age:'
+       ACCEPT WS-USER-AGE
  
+    
+ 
+    
        DISPLAY 'Customer Name: ' WS-CUSTOMER-NAME.
        DISPLAY 'Customer Age: ' WS-CUSTOMER-AGE.
        EXEC SQL
