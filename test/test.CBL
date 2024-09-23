@@ -14,19 +14,11 @@
        01 WS-AGE-GROUP      PIC X(20).  *> Variable to store age group description
         
        PROCEDURE DIVISION.
-           DISPLAY 'Enter your name:'
-           ACCEPT WS-USER-NAME
-           DISPLAY 'Enter your age:'
-           ACCEPT WS-USER-AGE
-        
-           IF WS-USER-AGE < 18 THEN
-               MOVE 'Minor' TO WS-AGE-GROUP
-           ELSE
-               MOVE 'Adult' TO WS-AGE-GROUP
-           END-IF
-        
-           DISPLAY 'Hello, ' WS-USER-NAME '!'
-           DISPLAY 'You are classified as: ' WS-AGE-GROUP
-        
-           STOP RUN.
+           DISPLAY 'Enter your name:'.
+           ACCEPT WS-USER-NAME.
+           DISPLAY 'Enter your age:'.
+           ACCEPT WS-USER-AGE.
+           DIVIDE A INTO B.
+           MULTIPLY C BY D.
+           ADD C D TO E F.
         
